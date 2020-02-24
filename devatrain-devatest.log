@@ -1,0 +1,1841 @@
+WARNING: Logging before flag parsing goes to stderr.
+W0221 07:19:46.991123 123550689871488 __init__.py:74] TensorFlow version 1.15.0 detected. Last version known to be fully compatible is 1.14.0 .
+Loading model models/devatrain_best.mlmodel	✓
+Evaluating models/devatrain_best.mlmodel
+=== report  ===
+
+378197	Characters
+22732	Errors
+93.99%	Accuracy
+
+10752	Insertions
+3179	Deletions
+8801	Substitutions
+
+Count	Missed	%Right
+85635	2791	96.74%	Common
+292560	16760	94.27%	Devanagari
+2	2	0.00%	Inherited
+
+Errors	Correct-Generated
+2546	{ DEVANAGARI SIGN VIRAMA } - {  }
+917	{ र } - {  }
+721	{ DEVANAGARI SIGN ANUSVARA } - {  }
+695	{  } - { DEVANAGARI SIGN VIRAMA }
+469	{ SPACE } - {  }
+462	{ त } - {  }
+384	{  } - { SPACE }
+277	{ व } - {  }
+276	{  } - { र }
+273	{ DEVANAGARI SIGN NUKTA } - {  }
+264	{ DEVANAGARI VOWEL SIGN AA } - {  }
+222	{ DEVANAGARI VOWEL SIGN U } - {  }
+212	{  } - { DEVANAGARI SIGN ANUSVARA }
+194	{ प } - {  }
+189	{ ष } - {  }
+188	{ य } - {  }
+177	{ DEVANAGARI VOWEL SIGN I } - {  }
+171	{ : } - { DEVANAGARI SIGN VISARGA }
+165	{ न } - { र }
+156	{ DEVANAGARI VOWEL SIGN E } - {  }
+154	{ द } - {  }
+151	{ DEVANAGARI SIGN VISARGA } - {  }
+149	{  } - { DEVANAGARI VOWEL SIGN AA }
+146	{ न } - {  }
+143	{ . } - {  }
+141	{ च } - { व }
+138	{ च } - {  }
+135	{ ध } - { थ }
+127	{  } - { व }
+125	{ क } - {  }
+120	{ ध } - {  }
+115	{ श } - {  }
+114	{ ञ } - {  }
+114	{ स } - { म }
+111	{ म } - {  }
+110	{ ज } - {  }
+105	{ ब } - { व }
+105	{ व } - { य }
+103	{ DEVANAGARI SIGN NUKTA } - { DEVANAGARI SIGN VIRAMA }
+101	{ DEVANAGARI VOWEL SIGN VOCALIC R } - {  }
+98	{ ग } - {  }
+97	{  } - { DEVANAGARI VOWEL SIGN E }
+96	{ ल } - {  }
+95	{  } - { औ }
+95	{ DEVANAGARI VOWEL SIGN UU } - {  }
+94	{ DEVANAGARI VOWEL SIGN AI } - { DEVANAGARI VOWEL SIGN E }
+93	{ ट } - { द }
+85	{ न } - { त }
+83	{ | } - { । }
+82	{  } - { DEVANAGARI VOWEL SIGN I }
+80	{ | } - {  }
+80	{  } - { द }
+80	{ स } - {  }
+78	{ व } - { च }
+77	{ &#39; } - {  }
+74	{ ट } - {  }
+73	{ त } - { न }
+70	{ DEVANAGARI VOWEL SIGN AI } - {  }
+70	{ DEVANAGARI SIGN CANDRABINDU } - {  }
+67	{ व } - { ब }
+65	{ . } - { , }
+63	{ DEVANAGARI VOWEL SIGN AU } - { DEVANAGARI VOWEL SIGN O }
+62	{ ठ } - {  }
+62	{ ब } - {  }
+58	{ । } - {  }
+57	{ भ } - {  }
+56	{ DEVANAGARI VOWEL SIGN O } - { DEVANAGARI VOWEL SIGN AA }
+56	{ य } - { व }
+53	{ म } - { भ }
+53	{ स } - { ख }
+52	{ क } - { व }
+52	{ स } - { र }
+52	{ आ } - { अ }
+51	{  } - { ञ }
+50	{ न } - { ब }
+49	{ ह } - { द }
+49	{ ड } - {  }
+49	{ य } - { ब }
+48	{ ल } - { त }
+48	{ DEVANAGARI VOWEL SIGN E } - { DEVANAGARI VOWEL SIGN AI }
+46	{ 1 } - { । }
+44	{ ढ } - { ड }
+43	{ , } - { . }
+43	{  } - { त }
+43	{ DEVANAGARI VOWEL SIGN UU } - { DEVANAGARI SIGN VIRAMA }
+42	{ घ } - { ध }
+42	{ ए } - {  }
+41	{ थ } - { ध }
+41	{ DEVANAGARI VOWEL SIGN E } - { DEVANAGARI SIGN ANUSVARA }
+40	{ ह } - {  }
+40	{ प } - { य }
+40	{  } - { &#39; }
+39	{ 1 } - {  }
+39	{ / } - {  }
+39	{ ऑ } - { औ }
+38	{ न } - { व }
+38	{  } - { DEVANAGARI VOWEL SIGN VOCALIC R }
+38	{ ण } - {  }
+38	{ DEVANAGARI VOWEL SIGN CANDRA O } - { DEVANAGARI VOWEL SIGN AA }
+37	{ 0 } - { ० }
+36	{ - } - {  }
+35	{ DEVANAGARI SIGN VIRAMA } - { DEVANAGARI VOWEL SIGN I }
+35	{  } - { य }
+35	{ ङ } - {  }
+35	{  } - { DEVANAGARI VOWEL SIGN U }
+35	{ ख } - { र }
+35	{ DEVANAGARI VOWEL SIGN O } - { DEVANAGARI VOWEL SIGN AU }
+34	{ DEVANAGARI VOWEL SIGN UU } - { DEVANAGARI VOWEL SIGN VOCALIC R }
+34	{ ” } - { &#34; }
+34	{ आ } - {  }
+33	{ DEVANAGARI SIGN CANDRABINDU } - { DEVANAGARI SIGN ANUSVARA }
+33	{ ग } - { न }
+33	{  } - { च }
+33	{ र } - { स }
+33	{  } - { . }
+32	{ ञ } - { ज }
+32	{ ढ } - { द }
+31	{ DEVANAGARI SIGN VISARGA } - { : }
+31	{ ग } - { र }
+31	{  } - { न }
+31	{ : } - {  }
+30	{  } - { । }
+30	{ DEVANAGARI VOWEL SIGN O } - {  }
+29	{ ख } - {  }
+29	{ छ } - {  }
+29	{ ल } - { न }
+29	{  } - { ज }
+29	{ थ } - {  }
+29	{ DEVANAGARI VOWEL SIGN II } - { DEVANAGARI VOWEL SIGN AU }
+28	{ ङ } - { ड }
+28	{ द } - { व }
+27	{ DEVANAGARI VOWEL SIGN II } - {  }
+27	{ DEVANAGARI VOWEL SIGN U } - { DEVANAGARI VOWEL SIGN UU }
+27	{ व } - { द }
+26	{ घ } - {  }
+26	{ ष } - { प }
+26	{ ग } - { म }
+26	{  } - { ख }
+26	{ , } - {  }
+26	{  } - { , }
+26	{ स } - { त }
+24	{ त } - { ल }
+24	{ ! } - { । }
+24	{ म } - { ग }
+24	{ DEVANAGARI VOWEL SIGN E } - { DEVANAGARI VOWEL SIGN I }
+24	{  } - { क }
+24	{ श } - { र }
+24	{ इ } - { द }
+23	{ म } - { य }
+23	{  } - { DEVANAGARI VOWEL SIGN O }
+23	{ घ } - { च }
+23	{ ० } - { 0 }
+23	{ थ } - { च }
+23	{ र } - { ई }
+22	{ ज } - { न }
+22	{ र } - { न }
+22	{ म } - { प }
+22	{ २ } - {  }
+22	{ DEVANAGARI VOWEL SIGN O } - { DEVANAGARI VOWEL SIGN E }
+22	{ DEVANAGARI VOWEL SIGN U } - { DEVANAGARI SIGN VIRAMA }
+22	{ “ } - { &#34; }
+22	{  } - { थ }
+22	{ ड } - { इ }
+21	{ ; } - { : }
+21	{ व } - { र }
+21	{  } - { ड }
+21	{ } } - { ) }
+21	{ फ } - { क }
+21	{ DEVANAGARI VOWEL SIGN II } - { DEVANAGARI VOWEL SIGN O }
+21	{ द } - { ड }
+20	{ DEVANAGARI SIGN VIRAMA } - { DEVANAGARI VOWEL SIGN VOCALIC R }
+20	{ ड } - { द }
+20	{ ह } - { DEVANAGARI SIGN VIRAMA }
+20	{ DEVANAGARI VOWEL SIGN VOCALIC R } - { DEVANAGARI SIGN VIRAMA }
+20	{  } - { ध }
+20	{ श } - { भ }
+20	{ ह } - { इ }
+20	{ … } - { . }
+20	{ ) } - {  }
+20	{ श } - { थ }
+20	{ &#34; } - { &#39; }
+20	{ &#34; } - { “ }
+20	{ ज } - { ब }
+19	{ DEVANAGARI SIGN VIRAMA } - { DEVANAGARI VOWEL SIGN AA }
+19	{ 2 } - {  }
+19	{ ओ } - {  }
+19	{ आ } - { औ }
+19	{ DEVANAGARI VOWEL SIGN CANDRA O } - { DEVANAGARI VOWEL SIGN O }
+19	{ व } - { ध }
+19	{ DEVANAGARI SIGN VIRAMA } - { DEVANAGARI VOWEL SIGN U }
+19	{ | } - { / }
+18	{ ` } - {  }
+18	{ ` } - { &#39; }
+18	{  } - { श }
+18	{ 7 } - {  }
+18	{  } - { DEVANAGARI VOWEL SIGN AI }
+18	{ ध } - { घ }
+18	{ 0 } - {  }
+18	{ DEVANAGARI VOWEL SIGN AU } - {  }
+18	{ र } - { ख }
+18	{ ज } - { ञ }
+17	{ • } - { ॰ }
+17	{ DEVANAGARI VOWEL SIGN UU } - { DEVANAGARI VOWEL SIGN U }
+17	{ &#34; } - {  }
+17	{  } - { ब }
+17	{ व } - { न }
+17	{ . } - { SPACE }
+17	{ 8 } - {  }
+17	{ च } - { य }
+17	{ DEVANAGARI VOWEL SIGN AA } - { DEVANAGARI VOWEL SIGN O }
+17	{ फ } - {  }
+17	{ ठ } - { व }
+16	{  } - { इ }
+16	{ * } - {  }
+16	{ थ } - { य }
+16	{  } - { ठ }
+16	{ DEVANAGARI VOWEL SIGN VOCALIC R } - { DEVANAGARI VOWEL SIGN UU }
+16	{ ड } - { ङ }
+16	{ ध } - { च }
+16	{  } - { DEVANAGARI VOWEL SIGN UU }
+16	{ ट } - { र }
+16	{ व } - { त }
+16	{  } - { | }
+16	{  } - { DEVANAGARI SIGN NUKTA }
+16	{ ब } - { न }
+15	{ च } - { DEVANAGARI SIGN VIRAMA }
+15	{ ~ } - { - }
+15	{ ब } - { य }
+15	{ ] } - {  }
+15	{ DEVANAGARI VOWEL SIGN AA } - { DEVANAGARI VOWEL SIGN AU }
+15	{ ह } - { ड }
+15	{ DEVANAGARI SIGN VIRAMA } - { न }
+15	{ व } - { क }
+15	{ ल } - { र }
+15	{ त } - { ब }
+15	{ स } - { न }
+15	{ श } - { DEVANAGARI SIGN VIRAMA }
+15	{ श } - { ज }
+15	{ SPACE } - { DEVANAGARI SIGN ANUSVARA }
+14	{ / } - { । }
+14	{  } - { म }
+14	{ ठ } - { ट }
+14	{ ७ } - {  }
+14	{ ध } - { व }
+14	{ भ } - { श }
+14	{ ध } - { श }
+14	{ ( } - {  }
+14	{ क } - { ब }
+14	{ DEVANAGARI VOWEL SIGN CANDRA O } - {  }
+14	{ फ } - { प }
+14	{  } - { ल }
+14	{ DEVANAGARI VOWEL SIGN AA } - { । }
+14	{ | } - { ॥ }
+14	{ प } - { ष }
+14	{ थ } - { व }
+14	{ ₹ } - { र }
+13	{ DEVANAGARI SIGN ANUSVARA } - { DEVANAGARI VOWEL SIGN E }
+13	{ २ } - { १ }
+13	{ ऽ } - {  }
+13	{  } - { अ }
+13	{ . } - { … }
+13	{  } - { ष }
+13	{  } - { DEVANAGARI SIGN CANDRABINDU }
+13	{ ग } - { ब }
+13	{ ध } - { द }
+13	{ ष } - { व }
+13	{ र } - { ग }
+13	{ ण } - { र }
+13	{ भ } - { म }
+13	{ ण } - { ष }
+13	{ DEVANAGARI SIGN VIRAMA } - { DEVANAGARI SIGN ANUSVARA }
+13	{ त } - { स }
+12	{ क } - { ध }
+12	{ र } - { य }
+12	{ त } - { व }
+12	{ क } - { श }
+12	{ क } - { ङ }
+12	{ . } - { - }
+12	{ 3 } - {  }
+12	{ - } - { . }
+12	{  } - { DEVANAGARI SIGN VISARGA }
+12	{ ष } - { च }
+12	{ य } - { थ }
+12	{ ; } - {  }
+12	{ DEVANAGARI VOWEL SIGN O } - { DEVANAGARI VOWEL SIGN II }
+12	{ म } - { स }
+11	{ DEVANAGARI SIGN ANUSVARA } - { DEVANAGARI VOWEL SIGN AI }
+11	{ य } - { म }
+11	{  } - { ग }
+11	{ च } - { ब }
+11	{ DEVANAGARI VOWEL SIGN AI } - { DEVANAGARI SIGN ANUSVARA }
+11	{ भ } - { अ }
+11	{ 3 } - { ३ }
+11	{ 9 } - {  }
+11	{ ओ } - { औ }
+11	{ द } - { ट }
+11	{ ल } - { स }
+11	{ DEVANAGARI VOWEL SIGN AA } - { DEVANAGARI SIGN VIRAMA }
+11	{ भ } - { ध }
+11	{ [ } - { | }
+11	{ च } - { द }
+11	{ प } - { म }
+11	{ च } - { र }
+11	{ DEVANAGARI VOWEL SIGN AA } - { DEVANAGARI VOWEL SIGN CANDRA O }
+11	{ इ } - { ड }
+11	{ [ } - {  }
+11	{ स } - { ल }
+11	{ क } - { ऋ }
+11	{ ढ } - {  }
+11	{ य } - { प }
+10	{ DEVANAGARI VOWEL SIGN II } - { DEVANAGARI VOWEL SIGN AA }
+10	{ DEVANAGARI SIGN CANDRABINDU } - { DEVANAGARI VOWEL SIGN AI }
+10	{ ४ } - {  }
+10	{ क } - { र }
+10	{ DEVANAGARI VOWEL SIGN I } - { DEVANAGARI VOWEL SIGN E }
+10	{ SPACE } - { । }
+10	{  } - { स }
+10	{ DEVANAGARI SIGN VIRAMA } - { र }
+10	{ 5 } - {  }
+10	{ क } - { भ }
+10	{ द } - { ढ }
+10	{ ष } - { ह }
+10	{ ङ } - { इ }
+10	{ ९ } - { १ }
+9	{ न } - { ञ }
+9	{ ज } - { च }
+9	{ अ } - {  }
+9	{ ५ } - {  }
+9	{ &#39; } - { &#34; }
+9	{ \ } - {  }
+9	{ “ } - {  }
+9	{ DEVANAGARI SIGN ANUSVARA } - { DEVANAGARI SIGN CANDRABINDU }
+9	{  } - { प }
+9	{ र } - { DEVANAGARI SIGN VIRAMA }
+9	{ ब } - { ष }
+9	{ प } - { व }
+9	{ औ } - {  }
+9	{ द } - { ह }
+9	{ प } - { फ }
+9	{ श } - { क }
+9	{ य } - { क }
+9	{ DEVANAGARI VOWEL SIGN AU } - { DEVANAGARI VOWEL SIGN AA }
+9	{ “ } - { &#39; }
+9	{ ; } - { , }
+9	{ ख } - { व }
+9	{ क } - { द }
+9	{ : } - { ; }
+9	{ न } - { ग }
+9	{ ञ } - { र }
+8	{ २ } - { ३ }
+8	{ ॰ } - { * }
+8	{ DEVANAGARI VOWEL SIGN U } - { DEVANAGARI VOWEL SIGN VOCALIC R }
+8	{  } - { ए }
+8	{ ॰ } - { ० }
+8	{ झ } - { DEVANAGARI SIGN VIRAMA }
+8	{ 4 } - {  }
+8	{ DEVANAGARI SIGN VIRAMA } - { DEVANAGARI VOWEL SIGN UU }
+8	{ व } - { प }
+8	{ श } - { ष }
+8	{ र } - { व }
+8	{ न } - { ज }
+8	{ DEVANAGARI SIGN VIRAMA } - { व }
+8	{ त } - { र }
+8	{  } - { भ }
+8	{  } - { DEVANAGARI VOWEL SIGN CANDRA O }
+8	{ स } - { DEVANAGARI SIGN VIRAMA }
+8	{ DEVANAGARI SIGN VIRAMA } - { य }
+8	{ DEVANAGARI SIGN VIRAMA } - { द }
+8	{ च } - { ध }
+8	{ ग } - { व }
+8	{ घ } - { व }
+8	{ ब } - { द }
+8	{ ङ } - { द }
+8	{ ! } - {  }
+8	{ । } - { DEVANAGARI VOWEL SIGN AA }
+8	{ च } - { ष }
+8	{ 6 } - {  }
+8	{ र } - { क }
+8	{ ळ } - { क }
+8	{ ण } - { न }
+8	{ DEVANAGARI SIGN ANUSVARA } - { DEVANAGARI SIGN VIRAMA }
+8	{ ण } - { ज }
+8	{ DEVANAGARI VOWEL SIGN CANDRA E } - { DEVANAGARI VOWEL SIGN E }
+8	{ - } - { SPACE }
+8	{ ल } - { म }
+8	{ क } - { ग }
+7	{ } } - {  }
+7	{ ट } - { व }
+7	{ DEVANAGARI SIGN VIRAMA } - { भ }
+7	{ उ } - {  }
+7	{ * } - { &#39; }
+7	{ * } - { &#34; }
+7	{ ख } - { न }
+7	{  } - { ह }
+7	{ ꣳ } - {  }
+7	{ घ } - { ग }
+7	{  } - { ण }
+7	{  } - { १ }
+7	{ ₹ } - { १ }
+7	{ ३ } - { 3 }
+7	{  } - { / }
+7	{  } - { DEVANAGARI VOWEL SIGN AU }
+7	{ र } - { श }
+7	{ च } - { त }
+7	{ DEVANAGARI SIGN VIRAMA } - { ध }
+7	{ ध } - { ष }
+7	{ + } - {  }
+7	{ झ } - { इ }
+7	{ द } - { र }
+7	{ DEVANAGARI VOWEL SIGN O } - { DEVANAGARI VOWEL SIGN CANDRA O }
+7	{ ट } - { ड }
+7	{ ? } - {  }
+7	{ 3 } - { 9 }
+7	{ क } - { DEVANAGARI VOWEL SIGN UU }
+7	{ &#34; } - { * }
+7	{ ८ } - {  }
+7	{ ८ } - { ९ }
+7	{ &#34; } - { ” }
+7	{ ९ } - { ६ }
+7	{ क } - { च }
+7	{ श } - { ञ }
+7	{ इ } - {  }
+7	{ क } - { ज }
+7	{ { } - { [ }
+7	{ } } - { ] }
+7	{ ण } - { ख }
+7	{ ७ } - { ० }
+6	{ ॰ } - { • }
+6	{ त } - { ह }
+6	{ ॥ } - { । }
+6	{ ऍ } - { ए }
+6	{ ग } - { प }
+6	{ ० } - {  }
+6	{ प } - { ग }
+6	{ _ } - {  }
+6	{ ज } - { DEVANAGARI SIGN VIRAMA }
+6	{ § } - {  }
+6	{ ड } - { DEVANAGARI SIGN VIRAMA }
+6	{ DEVANAGARI SIGN VIRAMA } - { क }
+6	{ DEVANAGARI SIGN VIRAMA } - { DEVANAGARI SIGN NUKTA }
+6	{ ह } - { त }
+6	{ ख } - { स }
+6	{ ) } - { । }
+6	{ ( } - { । }
+6	{ क } - { फ }
+6	{ श } - { ध }
+6	{ य } - { DEVANAGARI VOWEL SIGN AA }
+6	{ स } - { य }
+6	{ { } - { ( }
+6	{ ” } - {  }
+6	{ द } - { ध }
+6	{ व } - { DEVANAGARI SIGN VIRAMA }
+6	{ ब } - { ग }
+6	{ य } - { च }
+6	{ DEVANAGARI SIGN VIRAMA } - { त }
+6	{ र } - { द }
+6	{ म } - { न }
+6	{ य } - { र }
+6	{ DEVANAGARI SIGN VIRAMA } - { च }
+6	{ DEVANAGARI VOWEL SIGN O } - { ओ }
+6	{ • } - {  }
+6	{ ट } - { ठ }
+6	{ झ } - { ङ }
+6	{ श } - { त }
+6	{ घ } - { ष }
+6	{  } - { DEVANAGARI VOWEL SIGN II }
+6	{ ळ } - { व }
+6	{ च } - { थ }
+6	{ १ } - {  }
+6	{ : } - { . }
+6	{ DEVANAGARI SIGN VIRAMA } - { DEVANAGARI VOWEL SIGN O }
+6	{ र } - { DEVANAGARI VOWEL SIGN UU }
+6	{ * } - { “ }
+6	{ य } - { ष }
+6	{ ब } - { ज }
+6	{  } - { ङ }
+6	{ ऊ } - { उ }
+6	{ ठ } - { DEVANAGARI VOWEL SIGN U }
+6	{ ऑ } - {  }
+6	{ ञ } - { उ }
+6	{ । } - { SPACE }
+6	{ DEVANAGARI SIGN NUKTA } - { व }
+6	{  } - { ओ }
+6	{ र } - { ट }
+6	{  } - { „ }
+6	{ DEVANAGARI SIGN VIRAMA } - { ख }
+6	{ ‡ } - {  }
+6	{ DEVANAGARI SIGN VISARGA } - { SPACE }
+6	{ । } - { | }
+6	{ क } - { त }
+6	{ । } - { 1 }
+6	{ DEVANAGARI VOWEL SIGN O } - { DEVANAGARI SIGN ANUSVARA }
+6	{ ॰ } - {  }
+6	{ क } - { ड }
+6	{ अ } - { च }
+5	{ ” } - { &#39; }
+5	{ ५ } - { &#39; }
+5	{ म } - { व }
+5	{ DEVANAGARI VOWEL SIGN U } - { SPACE }
+5	{ DEVANAGARI VOWEL SIGN I } - { DEVANAGARI SIGN VIRAMA }
+5	{ ” } - { “ }
+5	{ { } - {  }
+5	{ ₹ } - {  }
+5	{ ढ } - { ट }
+5	{  } - { 6 }
+5	{ ए } - { ग }
+5	{ ७ } - { ५ }
+5	{  } - { ३ }
+5	{ ॥ } - {  }
+5	{ / } - { SPACE }
+5	{ ६ } - {  }
+5	{ ३ } - {  }
+5	{  } - { ) }
+5	{ द } - { इ }
+5	{ थ } - { क }
+5	{ र } - { DEVANAGARI VOWEL SIGN E }
+5	{ ल } - { DEVANAGARI SIGN VIRAMA }
+5	{ त } - { DEVANAGARI SIGN VIRAMA }
+5	{ म } - { ब }
+5	{ ष } - { न }
+5	{ त } - { ख }
+5	{ ऋ } - { DEVANAGARI SIGN VIRAMA }
+5	{  } - { : }
+5	{ ट } - { ह }
+5	{  } - { ॰ }
+5	{ ड } - { र }
+5	{ त } - { ज }
+5	{ म } - { र }
+5	{ स } - { भ }
+5	{ त } - { DEVANAGARI VOWEL SIGN AA }
+5	{ SPACE } - { . }
+5	{ ष } - { ञ }
+5	{ DEVANAGARI VOWEL SIGN AA } - { न }
+5	{ ञ } - { श }
+5	{ ष } - { ध }
+5	{ SPACE } - { र }
+5	{ ठ } - { र }
+5	{  } - { ट }
+5	{ त } - { च }
+5	{ क } - { न }
+5	{ % } - {  }
+5	{ ड } - { ई }
+5	{ ण } - { ब }
+5	{ ड } - { ह }
+5	{ ट } - { DEVANAGARI VOWEL SIGN VOCALIC R }
+5	{ ल } - { ख }
+5	{ ष } - { द }
+5	{ 6 } - { 8 }
+5	{ ण } - { ग }
+5	{ भ } - { र }
+5	{ ६ } - { ५ }
+5	{ ~ } - {  }
+5	{ प } - { स }
+5	{ „ } - { , }
+5	{ ब } - { क }
+5	{ … } - {  }
+5	{ DEVANAGARI SIGN NUKTA } - { ञ }
+5	{ ल } - { व }
+5	{ ॰ } - { १ }
+5	{ ४ } - { ५ }
+5	{ ध } - { ट }
+5	{ झ } - { भ }
+5	{  } - { उ }
+4	{ ढ } - { ब }
+4	{ श } - { च }
+4	{ ज } - { व }
+4	{ ख } - { ब }
+4	{ = } - {  }
+4	{ DEVANAGARI VOWEL SIGN UU } - { र }
+4	{ ञ } - { त }
+4	{ DEVANAGARI SIGN VIRAMA } - { SPACE }
+4	{ DEVANAGARI SIGN VIRAMA } - { ड }
+4	{ आ } - { SPACE }
+4	{  } - { घ }
+4	{ इ } - { ई }
+4	{ य } - { ध }
+4	{ ल } - { ज }
+4	{ न } - { श }
+4	{ १ } - { ९ }
+4	{ ङ } - { ह }
+4	{ ऑ } - { आ }
+4	{ DEVANAGARI VOWEL SIGN I } - { DEVANAGARI SIGN ANUSVARA }
+4	{  } - { • }
+4	{ ज } - { ङ }
+4	{ DEVANAGARI SIGN NUKTA } - { इ }
+4	{ च } - { श }
+4	{ न } - { ठ }
+4	{ घ } - { य }
+4	{ DEVANAGARI SIGN VIRAMA } - { थ }
+4	{ DEVANAGARI SIGN VIRAMA } - { ब }
+4	{ ए } - { प }
+4	{ DEVANAGARI SIGN VIRAMA } - { DEVANAGARI VOWEL SIGN E }
+4	{ भ } - { DEVANAGARI SIGN VIRAMA }
+4	{ थ } - { श }
+4	{ घ } - { द }
+4	{ ओ } - { आ }
+4	{ र } - { DEVANAGARI SIGN ANUSVARA }
+4	{ प } - { च }
+4	{ क } - { स }
+4	{ च } - { न }
+4	{ न } - { द }
+4	{ प } - { भ }
+4	{ व } - { ष }
+4	{ छ } - { ख }
+4	{  } - { 1 }
+4	{ DEVANAGARI SIGN VISARGA } - { DEVANAGARI SIGN VIRAMA }
+4	{ घ } - { ब }
+4	{ 8 } - { 4 }
+4	{ ष } - { ब }
+4	{ ९ } - {  }
+4	{ अ } - { औ }
+4	{ ओ } - { DEVANAGARI VOWEL SIGN O }
+4	{ ड } - { DEVANAGARI VOWEL SIGN U }
+4	{ DEVANAGARI SIGN ANUSVARA } - { DEVANAGARI VOWEL SIGN O }
+4	{ DEVANAGARI SIGN VIRAMA } - { इ }
+4	{ ञ } - { व }
+4	{ थ } - { ब }
+4	{ र } - { च }
+4	{ श } - { द }
+4	{ अ } - { श }
+4	{ DEVANAGARI SIGN VIRAMA } - { ह }
+4	{ प } - { ण }
+4	{ ट } - { DEVANAGARI VOWEL SIGN U }
+4	{ ए } - { ष }
+4	{ १ } - { ५ }
+4	{ DEVANAGARI VOWEL SIGN AU } - { DEVANAGARI VOWEL SIGN II }
+4	{ ० } - { ॰ }
+4	{ DEVANAGARI VOWEL SIGN I } - { DEVANAGARI VOWEL SIGN AA }
+4	{  } - { &#34; }
+4	{ 0 } - { ( }
+4	{ DEVANAGARI SIGN ANUSVARA } - { र }
+4	{ ग } - { य }
+4	{ ण } - { य }
+4	{ ८ } - { द }
+4	{ ८ } - { ५ }
+4	{ 8 } - { 6 }
+4	{ ॰ } - { “ }
+3	{ ₹ } - { श }
+3	{ DEVANAGARI VOWEL SIGN AA } - { र }
+3	{ ‡ } - { ३ }
+3	{ भ } - { द }
+3	{ - } - { • }
+3	{ ङ } - { ज }
+3	{ &#39; } - { ” }
+3	{ ल } - { ग }
+3	{ ७ } - { &#39; }
+3	{ श } - { ग }
+3	{ ७ } - { 9 }
+3	{ थ } - { DEVANAGARI SIGN ANUSVARA }
+3	{ DEVANAGARI VOWEL SIGN U } - { र }
+3	{ ४ } - { ८ }
+3	{ प } - { ५ }
+3	{ र } - { प }
+3	{ DEVANAGARI VOWEL SIGN AA } - { द }
+3	{ | } - { ; }
+3	{ &lt; } - {  }
+3	{ ; } - { . }
+3	{ य } - { DEVANAGARI SIGN VIRAMA }
+3	{ च } - { क }
+3	{ द } - { च }
+3	{  } - { ९ }
+3	{ आ } - { ज }
+3	{ DEVANAGARI VOWEL SIGN AI } - { DEVANAGARI VOWEL SIGN AU }
+3	{ 2 } - { ? }
+3	{ ठ } - { द }
+3	{ क } - { य }
+3	{ ज } - { श }
+3	{ DEVANAGARI VOWEL SIGN UU } - { न }
+3	{ अ } - { ऑ }
+3	{ ] } - { / }
+3	{ ऍ } - { ऐ }
+3	{ य } - { द }
+3	{ छ } - { DEVANAGARI SIGN VIRAMA }
+3	{ ष } - { त }
+3	{ ठ } - { ड }
+3	{ ठ } - { ह }
+3	{ इ } - { ह }
+3	{ DEVANAGARI SIGN NUKTA } - { र }
+3	{ DEVANAGARI VOWEL SIGN I } - { न }
+3	{ ल } - { DEVANAGARI VOWEL SIGN U }
+3	{ DEVANAGARI VOWEL SIGN U } - { न }
+3	{ ध } - { भ }
+3	{ स } - { ग }
+3	{ ज } - { त }
+3	{ ञ } - { च }
+3	{ ङ } - { ञ }
+3	{ न } - { ह }
+3	{ ६ } - { १ }
+3	{ ६ } - { ९ }
+3	{ ! } - { 1 }
+3	{ DEVANAGARI SIGN VIRAMA } - { ष }
+3	{ ग } - { ज }
+3	{ औ } - { अ }
+3	{ ) } - { 1 }
+3	{ ञ } - { अ }
+3	{ ङ } - { क }
+3	{ „ } - {  }
+3	{ ख } - { ज }
+3	{ DEVANAGARI VOWEL SIGN E } - { र }
+3	{ DEVANAGARI VOWEL SIGN U } - { ष }
+3	{ 9 } - { ७ }
+3	{ DEVANAGARI VOWEL SIGN AI } - { र }
+3	{ 5 } - { 8 }
+3	{ ई } - { इ }
+3	{ ऋ } - {  }
+3	{ DEVANAGARI VOWEL SIGN AA } - { व }
+3	{ थ } - { ष }
+3	{ १ } - { श }
+3	{ DEVANAGARI VOWEL SIGN AU } - { DEVANAGARI VOWEL SIGN AI }
+3	{ अ } - { भ }
+3	{ प } - { DEVANAGARI SIGN VIRAMA }
+3	{ स } - { ज }
+3	{ ल } - { क }
+3	{ 3 } - { 8 }
+3	{ 9 } - { 8 }
+3	{ ] } - { 1 }
+3	{ ज } - { र }
+3	{ ष } - { ड }
+3	{ ऐ } - { ऍ }
+3	{ र } - { ड }
+3	{ र } - { DEVANAGARI VOWEL SIGN AA }
+3	{ ब } - { म }
+3	{ ऊ } - {  }
+3	{ ख } - { च }
+3	{ श } - { व }
+3	{ र } - { भ }
+3	{ ब } - { ख }
+3	{ आ } - { ख }
+3	{ SPACE } - { ब }
+3	{ श } - { इ }
+3	{ म } - { DEVANAGARI SIGN VIRAMA }
+3	{ ञ } - { न }
+3	{ _ } - { - }
+3	{ र } - { DEVANAGARI VOWEL SIGN O }
+3	{  } - { 0 }
+3	{ 8 } - { 5 }
+3	{ ब } - { DEVANAGARI SIGN VIRAMA }
+3	{  } - { - }
+3	{ ळ } - {  }
+3	{ ६ } - { ध }
+3	{ उ } - { ड }
+3	{ ऊ } - { अ }
+3	{ ठ } - { त }
+3	{ त } - { य }
+3	{ त } - { ष }
+3	{ _ } - { SPACE }
+3	{ इ } - { ङ }
+3	{ DEVANAGARI VOWEL SIGN U } - { त }
+3	{ म } - { च }
+3	{ त } - { ञ }
+3	{ द } - { ब }
+3	{ प } - { थ }
+3	{ ( } - { / }
+3	{ ₹ } - { ह }
+3	{ ए } - { श }
+3	{ ] } - { । }
+3	{ DEVANAGARI VOWEL SIGN E } - { DEVANAGARI VOWEL SIGN O }
+3	{ ल } - { DEVANAGARI VOWEL SIGN AA }
+3	{ } } - { | }
+3	{ DEVANAGARI SIGN VIRAMA } - { DEVANAGARI VOWEL SIGN AI }
+3	{ { } - { | }
+3	{ र } - { त }
+3	{ ॰ } - { . }
+3	{ ३ } - { १ }
+3	{ न } - { - }
+3	{ य } - { । }
+3	{ DEVANAGARI SIGN VIRAMA } - { । }
+3	{ DEVANAGARI VOWEL SIGN E } - { DEVANAGARI SIGN VIRAMA }
+3	{ + } - { 4 }
+3	{ त } - { क }
+3	{ ण } - { म }
+3	{ छ } - { घ }
+3	{ DEVANAGARI SIGN VIRAMA } - { ल }
+3	{ DEVANAGARI VOWEL SIGN I } - { DEVANAGARI VOWEL SIGN AI }
+3	{ ओ } - { अ }
+3	{ ण } - { DEVANAGARI SIGN VIRAMA }
+3	{ ल } - { ह }
+3	{ ह } - { र }
+3	{ ड } - { ख }
+3	{ स } - { - }
+2	{ ञ } - { ख }
+2	{ ष } - { DEVANAGARI SIGN VIRAMA }
+2	{ उ } - { र }
+2	{ “ } - { ” }
+2	{ ध } - { र }
+2	{ DEVANAGARI SIGN VIRAMA } - { ग }
+2	{ DEVANAGARI SIGN ANUSVARA } - { व }
+2	{ र } - { ध }
+2	{ ढ } - { ह }
+2	{ % } - { 9 }
+2	{ व } - { ख }
+2	{ व } - { ठ }
+2	{ ङ } - { ष }
+2	{ प } - { DEVANAGARI VOWEL SIGN O }
+2	{ न } - { भ }
+2	{ ह } - { ई }
+2	{ न } - { ल }
+2	{ SPACE } - { &#39; }
+2	{ &gt; } - {  }
+2	{ ह } - { ढ }
+2	{ ऋ } - { श }
+2	{ ; } - { DEVANAGARI SIGN VISARGA }
+2	{ SPACE } - { - }
+2	{ 2 } - { 3 }
+2	{ . } - { १ }
+2	{ DEVANAGARI SIGN VIRAMA } - { श }
+2	{ ह } - { न }
+2	{ ञ } - { ग }
+2	{ / } - { ॥ }
+2	{ क } - { ह }
+2	{ र } - { DEVANAGARI VOWEL SIGN I }
+2	{ DEVANAGARI VOWEL SIGN AI } - { SPACE }
+2	{ ध } - { य }
+2	{ । } - { DEVANAGARI VOWEL SIGN II }
+2	{ प } - { घ }
+2	{ क } - { ख }
+2	{ प } - { ध }
+2	{ ठ } - { न }
+2	{ ह } - { ङ }
+2	{ भ } - { ष }
+2	{ ज } - { इ }
+2	{ ” } - { SPACE }
+2	{ ४ } - { भ }
+2	{ त } - { म }
+2	{ भ } - { ब }
+2	{ „ } - { . }
+2	{ ] } - { ) }
+2	{ DEVANAGARI VOWEL SIGN AU } - { DEVANAGARI SIGN CANDRABINDU }
+2	{ झ } - { ज }
+2	{ ) } - { DEVANAGARI SIGN VISARGA }
+2	{ 2 } - { : }
+2	{ % } - { “ }
+2	{ [ } - { / }
+2	{ य } - { त }
+2	{ ठ } - { ढ }
+2	{ ष } - { थ }
+2	{ य } - { ग }
+2	{ DEVANAGARI VOWEL SIGN O } - { र }
+2	{ र } - { म }
+2	{ DEVANAGARI SIGN NUKTA } - { DEVANAGARI VOWEL SIGN AU }
+2	{ छ } - { द }
+2	{ ज } - { ग }
+2	{ ड } - { छ }
+2	{ ३ } - { 5 }
+2	{ ६ } - { 8 }
+2	{ DEVANAGARI VOWEL SIGN AA } - { 1 }
+2	{ न } - { ख }
+2	{  } - { फ }
+2	{ र } - { + }
+2	{ २ } - { ९ }
+2	{ ग } - { ठ }
+2	{ ड } - { ञ }
+2	{ घ } - { र }
+2	{ ₹ } - { SPACE }
+2	{ ऐ } - { ए }
+2	{ भ } - { आ }
+2	{ DEVANAGARI VOWEL SIGN U } - { स }
+2	{ ड } - { DEVANAGARI VOWEL SIGN VOCALIC R }
+2	{ [ } - { DEVANAGARI VOWEL SIGN AA }
+2	{ 8 } - { 0 }
+2	{ ष } - { क }
+2	{ न } - { ष }
+2	{ व } - { DEVANAGARI VOWEL SIGN VOCALIC R }
+2	{ ल } - { ड }
+2	{ भ } - { व }
+2	{ ञ } - { ड }
+2	{ ष } - { ण }
+2	{ DEVANAGARI VOWEL SIGN AI } - { DEVANAGARI SIGN VIRAMA }
+2	{ घ } - { प }
+2	{ 2 } - { 1 }
+2	{  } - { २ }
+2	{ SPACE } - { ] }
+2	{ । } - { ॥ }
+2	{ ? } - { * }
+2	{ 2 } - { &gt; }
+2	{ 3 } - { ॐ }
+2	{ १ } - { ६ }
+2	{ DEVANAGARI SIGN CANDRABINDU } - { ऍ }
+2	{ ग } - { क }
+2	{ ञ } - { ङ }
+2	{ ग } - { ल }
+2	{ ळ } - { छ }
+2	{ 3 } - { ९ }
+2	{ ब } - { थ }
+2	{ ओ } - { ड }
+2	{ ट } - { ई }
+2	{ DEVANAGARI VOWEL SIGN AA } - { ड }
+2	{ DEVANAGARI VOWEL SIGN U } - { ड }
+2	{ फ } - { DEVANAGARI SIGN VIRAMA }
+2	{ भ } - { थ }
+2	{ DEVANAGARI SIGN NUKTA } - { DEVANAGARI SIGN VISARGA }
+2	{ ञ } - { ष }
+2	{ 8 } - { । }
+2	{ ऽ } - { 5 }
+2	{ DEVANAGARI SIGN VIRAMA } - { ठ }
+2	{ DEVANAGARI VOWEL SIGN CANDRA E } - {  }
+2	{ उ } - { अ }
+2	{ 1 } - { १ }
+2	{ ळ } - { ठ }
+2	{ DEVANAGARI VOWEL SIGN I } - { र }
+2	{ DEVANAGARI SIGN VIRAMA } - { ङ }
+2	{ र } - { ए }
+2	{ SPACE } - { DEVANAGARI VOWEL SIGN E }
+2	{ DEVANAGARI VOWEL SIGN AA } - { ग }
+2	{ DEVANAGARI SIGN VISARGA } - { DEVANAGARI SIGN ANUSVARA }
+2	{ श } - { ड }
+2	{ इ } - { ब }
+2	{ DEVANAGARI SIGN VIRAMA } - { स }
+2	{ SPACE } - { ) }
+2	{ [ } - { ( }
+2	{ ४ } - { 8 }
+2	{ छ } - { ङ }
+2	{ ढ } - { व }
+2	{ ‡ } - { र }
+2	{ र } - { SPACE }
+2	{ र } - { थ }
+2	{ DEVANAGARI SIGN VIRAMA } - { ई }
+2	{ म } - { ष }
+2	{ 3 } - { उ }
+2	{ = } - { - }
+2	{ DEVANAGARI VOWEL SIGN I } - { ध }
+2	{ झ } - { द }
+2	{ र } - { ल }
+2	{ % } - { १ }
+2	{ DEVANAGARI VOWEL SIGN VOCALIC R } - { DEVANAGARI VOWEL SIGN U }
+2	{ ऋ } - { ञ }
+2	{ र } - { उ }
+2	{ • } - { - }
+2	{ ग } - { DEVANAGARI VOWEL SIGN O }
+2	{ , } - { SPACE }
+2	{ ऍ } - {  }
+2	{ श } - { DEVANAGARI VOWEL SIGN AA }
+2	{ DEVANAGARI SIGN ANUSVARA } - { थ }
+2	{ 1 } - { SPACE }
+2	{ \ } - { । }
+2	{ ( } - { { }
+2	{ व } - { भ }
+2	{ + } - { - }
+2	{ म } - { ध }
+2	{ “ } - { * }
+2	{ DEVANAGARI SIGN ANUSVARA } - { द }
+2	{ श } - { ब }
+2	{ ऊ } - { ज }
+2	{ र } - { ञ }
+2	{ औ } - { ज }
+2	{ स } - { ब }
+2	{  } - { 7 }
+2	{ 0 } - { 6 }
+2	{ थ } - { ड }
+2	{  } - { * }
+2	{ च } - { अ }
+2	{ फ } - { र }
+2	{ DEVANAGARI SIGN VISARGA } - { . }
+2	{ % } - { ९ }
+2	{ &lt; } - { - }
+2	{ DEVANAGARI SIGN VISARGA } - { ; }
+2	{ { } - { / }
+2	{ DEVANAGARI SIGN VIRAMA } - { ञ }
+2	{ &#34; } - { SPACE }
+2	{  } - { ” }
+2	{ त } - { श }
+2	{ ॐ } - { ऑ }
+2	{ § } - { श }
+2	{ ख } - { DEVANAGARI SIGN VIRAMA }
+2	{ ! } - { DEVANAGARI VOWEL SIGN AA }
+2	{  } - { _ }
+2	{ ॰ } - { ९ }
+2	{ DEVANAGARI SIGN VIRAMA } - { ऋ }
+2	{  } - { ५ }
+2	{ ब } - { र }
+2	{ ॐ } - { उ }
+2	{ * } - { • }
+2	{ ज } - { क }
+2	{ ठ } - { च }
+2	{ &#39; } - { “ }
+2	{ DEVANAGARI VOWEL SIGN AI } - { DEVANAGARI VOWEL SIGN I }
+2	{ ऽ } - { \ }
+2	{ र } - { ह }
+2	{ घ } - { थ }
+2	{ र } - { ष }
+2	{ च } - { घ }
+2	{ छ } - { च }
+2	{ य } - { न }
+2	{ DEVANAGARI VOWEL SIGN UU } - { DEVANAGARI VOWEL SIGN AI }
+2	{ ळ } - { न }
+2	{ ड } - { ज }
+2	{ ? } - { DEVANAGARI VOWEL SIGN E }
+2	{ SPACE } - { DEVANAGARI SIGN VIRAMA }
+2	{ त } - { । }
+2	{ ख } - { म }
+2	{ ष } - { भ }
+2	{ ज } - { । }
+2	{ ण } - { ह }
+2	{ DEVANAGARI VOWEL SIGN VOCALIC R } - { व }
+2	{ ब } - { त }
+2	{ ट } - { DEVANAGARI SIGN VIRAMA }
+2	{  } - { 5 }
+2	{ ₹ } - { २ }
+2	{ ‡ } - { + }
+2	{ ड } - { ठ }
+2	{ DEVANAGARI SIGN VIRAMA } - { फ }
+2	{ न } - { य }
+2	{ ञ } - { ह }
+2	{ DEVANAGARI VOWEL SIGN AU } - { DEVANAGARI VOWEL SIGN CANDRA O }
+2	{ DEVANAGARI VOWEL SIGN AA } - { ध }
+2	{ ट } - { त }
+2	{ DEVANAGARI SIGN VIRAMA } - { घ }
+2	{ ओ } - { र }
+2	{ ] } - { | }
+2	{ च } - { DEVANAGARI VOWEL SIGN I }
+2	{ DEVANAGARI VOWEL SIGN AU } - { DEVANAGARI SIGN ANUSVARA }
+2	{ ज } - { द }
+2	{ व } - { DEVANAGARI SIGN ANUSVARA }
+2	{ . } - { ३ }
+2	{ छ } - { ठ }
+2	{ त } - { द }
+2	{ च } - { छ }
+2	{ { } - { ई }
+2	{ DEVANAGARI SIGN ANUSVARA } - { न }
+2	{ ग } - { DEVANAGARI VOWEL SIGN AA }
+2	{ DEVANAGARI SIGN ANUSVARA } - { , }
+2	{ DEVANAGARI SIGN ANUSVARA } - { DEVANAGARI VOWEL SIGN AA }
+2	{  } - { छ }
+2	{ DEVANAGARI SIGN CANDRABINDU } - { DEVANAGARI VOWEL SIGN E }
+2	{ ख } - { त }
+2	{ ओ } - { स }
+2	{ ई } - { द }
+2	{ छ } - { क }
+2	{ द } - { ज }
+2	{ ऋ } - { अ }
+2	{ ह } - { ज }
+2	{ ण } - { DEVANAGARI VOWEL SIGN O }
+2	{ DEVANAGARI SIGN ANUSVARA } - { DEVANAGARI SIGN VISARGA }
+2	{ SPACE } - { ५ }
+2	{ ए } - { ण }
+2	{ ऽ } - { ध }
+2	{ ध } - { DEVANAGARI SIGN VIRAMA }
+2	{ ण } - { स }
+2	{ ष } - { छ }
+2	{ ख } - { DEVANAGARI VOWEL SIGN U }
+2	{ क } - { छ }
+2	{ द } - { , }
+2	{ DEVANAGARI VOWEL SIGN II } - { DEVANAGARI VOWEL SIGN I }
+2	{ 5 } - { § }
+1	{ ॥ } - { 1 }
+1	{ १ } - { ३ }
+1	{ DEVANAGARI SIGN ANUSVARA } - { । }
+1	{ ज } - { ड }
+1	{ ॥ } - { १ }
+1	{ ॐ } - { 3 }
+1	{ ऽ } - { § }
+1	{ { } - { । }
+1	{ - } - { व }
+1	{ ऽ } - { ६ }
+1	{ ऽ } - { र }
+1	{ { } - { ; }
+1	{ * } - { ५ }
+1	{ ञ } - { DEVANAGARI VOWEL SIGN AA }
+1	{ DEVANAGARI VOWEL SIGN I } - { य }
+1	{ ब } - { अ }
+1	{ = } - { &gt; }
+1	{ • } - { ४ }
+1	{ ज } - { : }
+1	{ ढ } - { र }
+1	{ च } - { ख }
+1	{ ड } - { व }
+1	{ 2 } - { * }
+1	{ ङ } - { DEVANAGARI SIGN ANUSVARA }
+1	{ ग } - { ह }
+1	{ 2 } - { ४ }
+1	{ 1 } - { ३ }
+1	{ च } - { ञ }
+1	{ ऊ } - { ङ }
+1	{ म } - { त }
+1	{ DEVANAGARI SIGN CANDRABINDU } - { ग }
+1	{ ड } - { ट }
+1	{ : } - { SPACE }
+1	{ ४ } - { &lt; }
+1	{ 3 } - { \ }
+1	{ ष } - { ० }
+1	{ ट } - { DEVANAGARI VOWEL SIGN E }
+1	{ ग } - { भ }
+1	{ व } - { 6 }
+1	{ ख } - { DEVANAGARI SIGN CANDRABINDU }
+1	{ DEVANAGARI VOWEL SIGN U } - { DEVANAGARI VOWEL SIGN E }
+1	{ क } - { DEVANAGARI SIGN VIRAMA }
+1	{ ॐ } - { ‡ }
+1	{ । } - { 8 }
+1	{ च } - { प }
+1	{ अ } - { र }
+1	{ ८ } - { 4 }
+1	{ / } - { &#39; }
+1	{ | } - { . }
+1	{ | } - { : }
+1	{ 8 } - { ४ }
+1	{ ऋ } - { प }
+1	{ ग } - { ख }
+1	{ त } - { ट }
+1	{ य } - { ड }
+1	{ DEVANAGARI VOWEL SIGN O } - { ल }
+1	{ न } - { DEVANAGARI VOWEL SIGN I }
+1	{ द } - { न }
+1	{ 0 } - { ७ }
+1	{ 9 } - { % }
+1	{ । } - { औ }
+1	{ ह } - { क }
+1	{ २ } - { &lt; }
+1	{ थ } - { DEVANAGARI VOWEL SIGN UU }
+1	{ प } - { ह }
+1	{ = } - { ~ }
+1	{ DEVANAGARI VOWEL SIGN AA } - { प }
+1	{ ए } - { फ }
+1	{ “ } - { - }
+1	{ DEVANAGARI VOWEL SIGN AA } - { क }
+1	{ त } - { ऋ }
+1	{ म } - { द }
+1	{ DEVANAGARI VOWEL SIGN II } - { ब }
+1	{ DEVANAGARI VOWEL SIGN CANDRA O } - { व }
+1	{ क } - { DEVANAGARI VOWEL SIGN I }
+1	{ ए } - { द }
+1	{ घ } - { DEVANAGARI SIGN VIRAMA }
+1	{ ठ } - { क }
+1	{ श } - { , }
+1	{ ष } - { ख }
+1	{ DEVANAGARI VOWEL SIGN AI } - { DEVANAGARI SIGN CANDRABINDU }
+1	{ द } - { ग }
+1	{ स } - { DEVANAGARI VOWEL SIGN AA }
+1	{ फ } - { DEVANAGARI VOWEL SIGN O }
+1	{ DEVANAGARI VOWEL SIGN O } - { य }
+1	{ र } - { DEVANAGARI SIGN VISARGA }
+1	{ त } - { DEVANAGARI VOWEL SIGN I }
+1	{ 7 } - { SPACE }
+1	{ DEVANAGARI VOWEL SIGN VOCALIC R } - { न }
+1	{ ड } - { : }
+1	{ य } - { श }
+1	{ DEVANAGARI VOWEL SIGN AI } - { त }
+1	{ । } - { DEVANAGARI VOWEL SIGN O }
+1	{ 8 } - { १ }
+1	{ ९ } - { 5 }
+1	{ । } - { श }
+1	{ ५ } - { च }
+1	{ &gt; } - { DEVANAGARI SIGN VISARGA }
+1	{ फ } - { छ }
+1	{ DEVANAGARI SIGN CANDRABINDU } - { DEVANAGARI SIGN VIRAMA }
+1	{ छ } - { र }
+1	{ ओ } - { SPACE }
+1	{ &lt; } - { • }
+1	{ „ } - { … }
+1	{ DEVANAGARI VOWEL SIGN AA } - { य }
+1	{ फ } - { ध }
+1	{ DEVANAGARI VOWEL SIGN CANDRA O } - { त }
+1	{ ( } - { 1 }
+1	{  } - { ? }
+1	{ छ } - { ह }
+1	{ , } - { DEVANAGARI VOWEL SIGN AI }
+1	{ भ } - { ज }
+1	{ क } - { DEVANAGARI SIGN VISARGA }
+1	{ DEVANAGARI SIGN NUKTA } - { द }
+1	{ ष } - { ए }
+1	{ ए } - { DEVANAGARI SIGN VIRAMA }
+1	{ ए } - { त }
+1	{ म } - { क }
+1	{ DEVANAGARI SIGN VIRAMA } - { DEVANAGARI VOWEL SIGN CANDRA O }
+1	{ । } - { DEVANAGARI VOWEL SIGN E }
+1	{ ऐ } - { म }
+1	{ ए } - { म }
+1	{ ख } - { ग }
+1	{ ढ } - { DEVANAGARI SIGN VIRAMA }
+1	{ उ } - { न }
+1	{ ड } - { क }
+1	{ झ } - { आ }
+1	{ म } - { DEVANAGARI SIGN ANUSVARA }
+1	{ ग } - { DEVANAGARI VOWEL SIGN I }
+1	{ ऐ } - {  }
+1	{ ट } - { ङ }
+1	{ ॐ } - { ३ }
+1	{ ए } - { DEVANAGARI VOWEL SIGN U }
+1	{ न } - { ढ }
+1	{ | } - { 1 }
+1	{ ह } - { ल }
+1	{ ० } - { ७ }
+1	{ DEVANAGARI VOWEL SIGN I } - { DEVANAGARI VOWEL SIGN II }
+1	{ प } - { र }
+1	{ ङ } - { 5 }
+1	{ } } - { 1 }
+1	{ च } - { ( }
+1	{ व } - { ल }
+1	{ न } - { ळ }
+1	{ भ } - { ग }
+1	{ ) } - { . }
+1	{ न } - { म }
+1	{ त } - { २ }
+1	{ द } - { ङ }
+1	{ % } - { ५ }
+1	{ फ } - { DEVANAGARI SIGN ANUSVARA }
+1	{ र } - { २ }
+1	{ न } - { ० }
+1	{ DEVANAGARI VOWEL SIGN U } - { आ }
+1	{ DEVANAGARI SIGN CANDRABINDU } - { 1 }
+1	{ र } - { DEVANAGARI VOWEL SIGN AI }
+1	{ / } - { ० }
+1	{ DEVANAGARI VOWEL SIGN AA } - { ष }
+1	{ DEVANAGARI SIGN VISARGA } - { DEVANAGARI VOWEL SIGN AA }
+1	{ DEVANAGARI VOWEL SIGN AA } - { म }
+1	{ DEVANAGARI VOWEL SIGN U } - { ग }
+1	{ DEVANAGARI SIGN ANUSVARA } - { प }
+1	{ ? } - { DEVANAGARI SIGN VIRAMA }
+1	{ DEVANAGARI VOWEL SIGN AI } - { DEVANAGARI VOWEL SIGN U }
+1	{ ॐ } - { § }
+1	{ उ } - { इ }
+1	{ DEVANAGARI SIGN ANUSVARA } - { SPACE }
+1	{ ए } - { ब }
+1	{ र } - { DEVANAGARI SIGN NUKTA }
+1	{ DEVANAGARI SIGN ANUSVARA } - { म }
+1	{ स } - { DEVANAGARI VOWEL SIGN I }
+1	{ व } - { DEVANAGARI VOWEL SIGN E }
+1	{ DEVANAGARI VOWEL SIGN U } - { च }
+1	{ ५ } - { ४ }
+1	{ ख } - { ध }
+1	{ DEVANAGARI VOWEL SIGN VOCALIC R } - { इ }
+1	{ DEVANAGARI SIGN VIRAMA } - { प }
+1	{ SPACE } - { क }
+1	{ DEVANAGARI VOWEL SIGN UU } - { त }
+1	{ , } - { ) }
+1	{ : } - { * }
+1	{ 1 } - { - }
+1	{ DEVANAGARI SIGN ANUSVARA } - { &#39; }
+1	{ 1 } - { : }
+1	{ ꣳ } - { DEVANAGARI SIGN VISARGA }
+1	{ 0 } - { &gt; }
+1	{ 2 } - { ५ }
+1	{ . } - { ॰ }
+1	{ य } - { स }
+1	{ 8 } - { § }
+1	{ : } - { , }
+1	{ 0 } - { . }
+1	{ 3 } - { § }
+1	{ 6 } - { * }
+1	{ 7 } - { 1 }
+1	{ 1 } - { + }
+1	{ 5 } - { ट }
+1	{ थ } - { प }
+1	{ * } - { ” }
+1	{ य } - { इ }
+1	{ य } - { ज }
+1	{ ८ } - { ध }
+1	{ क } - { ठ }
+1	{ 7 } - { ? }
+1	{ छ } - { य }
+1	{ DEVANAGARI VOWEL SIGN I } - { ष }
+1	{ DEVANAGARI VOWEL SIGN U } - { DEVANAGARI SIGN VISARGA }
+1	{ २ } - { श }
+1	{ र } - { ज }
+1	{ ड } - { ढ }
+1	{ ऋ } - { क }
+1	{ प } - { DEVANAGARI VOWEL SIGN AA }
+1	{ ग } - { DEVANAGARI VOWEL SIGN AI }
+1	{ 5 } - { 6 }
+1	{ ओ } - { ख }
+1	{ ज } - { ई }
+1	{ ज } - { DEVANAGARI VOWEL SIGN E }
+1	{ म } - { आ }
+1	{ DEVANAGARI VOWEL SIGN O } - { DEVANAGARI VOWEL SIGN AI }
+1	{ उ } - { DEVANAGARI SIGN VIRAMA }
+1	{ ष } - { DEVANAGARI VOWEL SIGN II }
+1	{ DEVANAGARI VOWEL SIGN U } - { क }
+1	{ ल } - { भ }
+1	{ प } - { श }
+1	{ DEVANAGARI VOWEL SIGN E } - { ह }
+1	{ ] } - { DEVANAGARI VOWEL SIGN AA }
+1	{ न } - { DEVANAGARI SIGN VISARGA }
+1	{ DEVANAGARI SIGN VIRAMA } - { ट }
+1	{ ध } - { क }
+1	{ DEVANAGARI VOWEL SIGN UU } - { DEVANAGARI SIGN ANUSVARA }
+1	{ २ } - { र }
+1	{ ज } - { उ }
+1	{ &#34; } - { न }
+1	{ ? } - { ₹ }
+1	{ ज } - { अ }
+1	{ क } - { ओ }
+1	{ DEVANAGARI SIGN NUKTA } - { ङ }
+1	{ ब } - { च }
+1	{ स } - { व }
+1	{ श } - { स }
+1	{ श } - { न }
+1	{ स } - { प }
+1	{ ऊ } - { ख }
+1	{ ध } - { DEVANAGARI VOWEL SIGN VOCALIC R }
+1	{ ज } - { ण }
+1	{ ८ } - { ६ }
+1	{ ८ } - { SPACE }
+1	{ च } - { ज }
+1	{ . } - { ह }
+1	{ . } - { र }
+1	{ DEVANAGARI VOWEL SIGN I } - { म }
+1	{ &#39; } - { भ }
+1	{ DEVANAGARI VOWEL SIGN E } - { म }
+1	{ DEVANAGARI VOWEL SIGN U } - { ख }
+1	{ झ } - { क }
+1	{ छ } - { इ }
+1	{ DEVANAGARI VOWEL SIGN UU } - { ड }
+1	{ “ } - { • }
+1	{ &#39; } - { DEVANAGARI SIGN ANUSVARA }
+1	{ : } - { ? }
+1	{ &#34; } - { ( }
+1	{ SPACE } - { ॥ }
+1	{ ꣳ } - { DEVANAGARI SIGN VIRAMA }
+1	{ ड } - { उ }
+1	{ ꣳ } - { ‡ }
+1	{ ₹ } - { । }
+1	{ DEVANAGARI SIGN VIRAMA } - { ण }
+1	{ आ } - { भ }
+1	{ फ } - { ष }
+1	{ DEVANAGARI SIGN ANUSVARA } - { इ }
+1	{ छ } - { ड }
+1	{ DEVANAGARI SIGN ANUSVARA } - { DEVANAGARI VOWEL SIGN CANDRA O }
+1	{ छ } - { ज }
+1	{ न } - { ~ }
+1	{ ९ } - { २ }
+1	{ DEVANAGARI VOWEL SIGN AI } - { प }
+1	{ _ } - { . }
+1	{ = } - { | }
+1	{ ८ } - { / }
+1	{ DEVANAGARI SIGN VIRAMA } - { . }
+1	{ , } - { । }
+1	{ | } - { ? }
+1	{ ख } - { श }
+1	{ न } - { क }
+1	{ ख } - { ङ }
+1	{ ध } - { SPACE }
+1	{ न } - { , }
+1	{ DEVANAGARI VOWEL SIGN I } - { श }
+1	{ = } - { * }
+1	{ DEVANAGARI VOWEL SIGN VOCALIC R } - { र }
+1	{ व } - { ड }
+1	{ 3 } - { 5 }
+1	{ न } - { च }
+1	{ ख } - { उ }
+1	{ झ } - { ड }
+1	{ र } - { DEVANAGARI VOWEL SIGN VOCALIC R }
+1	{ र } - { ब }
+1	{ &#39; } - { ग }
+1	{ &#39; } - { * }
+1	{ DEVANAGARI SIGN ANUSVARA } - { च }
+1	{ र } - { DEVANAGARI VOWEL SIGN AU }
+1	{ श } - { DEVANAGARI VOWEL SIGN AI }
+1	{ 1 } - { ङ }
+1	{ श } - { DEVANAGARI VOWEL SIGN VOCALIC R }
+1	{  } - { ६ }
+1	{ ब } - { झ }
+1	{ इ } - { झ }
+1	{ भ } - { ञ }
+1	{ &gt; } - { * }
+1	{ SPACE } - { &#34; }
+1	{ ध } - { ड }
+1	{  } - { ऐ }
+1	{ ८ } - { ॰ }
+1	{ SPACE } - { DEVANAGARI VOWEL SIGN UU }
+1	{ ए } - { ९ }
+1	{ &#39; } - { च }
+1	{ र } - { इ }
+1	{ [ } - { DEVANAGARI VOWEL SIGN VOCALIC R }
+1	{ SPACE } - { 5 }
+1	{ DEVANAGARI VOWEL SIGN AA } - { थ }
+1	{ + } - { उ }
+1	{ SPACE } - { स }
+1	{ भ } - { य }
+1	{ DEVANAGARI SIGN CANDRABINDU } - { र }
+1	{ * } - { भ }
+1	{  } - { 3 }
+1	{ DEVANAGARI VOWEL SIGN AA } - { ञ }
+1	{ &gt; } - { 3 }
+1	{ &gt; } - { प }
+1	{ SPACE } - { ; }
+1	{ व } - { म }
+1	{ DEVANAGARI SIGN VIRAMA } - { ए }
+1	{ DEVANAGARI SIGN ANUSVARA } - { स }
+1	{ DEVANAGARI VOWEL SIGN U } - { ई }
+1	{ DEVANAGARI VOWEL SIGN E } - { ड }
+1	{ DEVANAGARI SIGN CANDRABINDU } - { SPACE }
+1	{ + } - { ~ }
+1	{ ख } - { ष }
+1	{ DEVANAGARI VOWEL SIGN E } - { DEVANAGARI VOWEL SIGN AA }
+1	{ | } - { DEVANAGARI SIGN VISARGA }
+1	{ DEVANAGARI SIGN VISARGA } - { र }
+1	{ DEVANAGARI VOWEL SIGN U } - { ब }
+1	{ ञ } - { . }
+1	{ 1 } - { 3 }
+1	{ ठ } - { उ }
+1	{ ट } - { इ }
+1	{ ओ } - { भ }
+1	{ म } - { ञ }
+1	{ आ } - { ब }
+1	{ थ } - { DEVANAGARI SIGN VISARGA }
+1	{ व } - { थ }
+1	{ ध } - { ब }
+1	{ ब } - { ड }
+1	{ ऊ } - { ड }
+1	{ ह } - { ब }
+1	{ म } - { थ }
+1	{ ठ } - { ङ }
+1	{ DEVANAGARI VOWEL SIGN AA } - { DEVANAGARI SIGN VISARGA }
+1	{ ब } - { औ }
+1	{ झ } - { म }
+1	{ ६ } - { 4 }
+1	{ ल } - { DEVANAGARI SIGN CANDRABINDU }
+1	{ फ } - { ए }
+1	{ फ } - { न }
+1	{ ऋ } - { ज }
+1	{ ; } - { ? }
+1	{ ( } - { SPACE }
+1	{ DEVANAGARI SIGN NUKTA } - { DEVANAGARI SIGN ANUSVARA }
+1	{ , } - { 1 }
+1	{ ) } - { } }
+1	{ DEVANAGARI VOWEL SIGN AU } - { DEVANAGARI SIGN VIRAMA }
+1	{ प } - { अ }
+1	{ स } - { झ }
+1	{ DEVANAGARI SIGN ANUSVARA } - { ह }
+1	{ 5 } - { . }
+1	{  } - { ` }
+1	{ DEVANAGARI SIGN VISARGA } - { , }
+1	{ श } - { अ }
+1	{ द } - { य }
+1	{ DEVANAGARI VOWEL SIGN E } - { ब }
+1	{ DEVANAGARI VOWEL SIGN E } - { च }
+1	{ ध } - { DEVANAGARI VOWEL SIGN O }
+1	{ / } - { . }
+1	{ | } - { ! }
+1	{ ” } - { ` }
+1	{ क } - { ‡ }
+1	{ DEVANAGARI VOWEL SIGN I } - { ल }
+1	{ DEVANAGARI VOWEL SIGN E } - { न }
+1	{ र } - { ठ }
+1	{ “ } - { SPACE }
+1	{ 1 } - { / }
+1	{ DEVANAGARI VOWEL SIGN U } - { DEVANAGARI VOWEL SIGN I }
+1	{ ढ } - { ङ }
+1	{ ५ } - { ९ }
+1	{ म } - { DEVANAGARI VOWEL SIGN E }
+1	{ न } - { &lt; }
+1	{ ऽ } - { SPACE }
+1	{ ञ } - { DEVANAGARI SIGN VIRAMA }
+1	{ ? } - { १ }
+1	{ DEVANAGARI VOWEL SIGN VOCALIC R } - { द }
+1	{ उ } - { ज }
+1	{ ट } - { य }
+1	{ DEVANAGARI VOWEL SIGN U } - { DEVANAGARI SIGN ANUSVARA }
+1	{ | } - { DEVANAGARI VOWEL SIGN AU }
+1	{ त } - { अ }
+1	{ थ } - { । }
+1	{ - } - { । }
+1	{ भ } - { ~ }
+1	{ ` } - { “ }
+1	{ ‡ } - { इ }
+1	{ थ } - { भ }
+1	{ झ } - { ह }
+1	{ ! } - { DEVANAGARI VOWEL SIGN II }
+1	{ ल } - { ई }
+1	{ * } - { ॰ }
+1	{ DEVANAGARI VOWEL SIGN UU } - { DEVANAGARI VOWEL SIGN E }
+1	{ भ } - { ओ }
+1	{ न } - { DEVANAGARI SIGN VIRAMA }
+1	{ ऽ } - { म }
+1	{ ओ } - { ज }
+1	{ अ } - { ज }
+1	{ ० } - { • }
+1	{ DEVANAGARI SIGN NUKTA } - { DEVANAGARI VOWEL SIGN UU }
+1	{ ऽ } - { ९ }
+1	{ ? } - { : }
+1	{  } - { ऋ }
+1	{ क } - { ल }
+1	{ ठ } - { ज }
+1	{ DEVANAGARI SIGN VIRAMA } - { DEVANAGARI VOWEL SIGN AU }
+1	{ ञ } - { द }
+1	{ % } - { + }
+1	{ SPACE } - { DEVANAGARI SIGN VISARGA }
+1	{ क } - { ढ }
+1	{ DEVANAGARI SIGN ANUSVARA } - { घ }
+1	{ DEVANAGARI SIGN ANUSVARA } - { DEVANAGARI VOWEL SIGN I }
+1	{ आ } - { ऑ }
+1	{ त } - { &#39; }
+1	{ ङ } - { : }
+1	{ DEVANAGARI VOWEL SIGN UU } - { DEVANAGARI VOWEL SIGN AU }
+1	{ ब } - { । }
+1	{ त } - { DEVANAGARI VOWEL SIGN AU }
+1	{ DEVANAGARI VOWEL SIGN I } - { । }
+1	{ क } - { २ }
+1	{ र } - { ५ }
+1	{ DEVANAGARI VOWEL SIGN U } - { व }
+1	{ म } - { । }
+1	{ ज } - { DEVANAGARI VOWEL SIGN AA }
+1	{ DEVANAGARI VOWEL SIGN I } - { व }
+1	{ DEVANAGARI VOWEL SIGN U } - { ” }
+1	{ उ } - { । }
+1	{ 3 } - { ( }
+1	{ SPACE } - { , }
+1	{ DEVANAGARI VOWEL SIGN UU } - { द }
+1	{ छ } - { DEVANAGARI VOWEL SIGN AA }
+1	{ DEVANAGARI VOWEL SIGN UU } - { च }
+1	{ छ } - { DEVANAGARI VOWEL SIGN AU }
+1	{ प } - { 9 }
+1	{ DEVANAGARI SIGN VIRAMA } - { DEVANAGARI SIGN VISARGA }
+1	{ त } - { - }
+1	{ य } - { : }
+1	{ ण } - { । }
+1	{ द } - { &#39; }
+1	{ DEVANAGARI VOWEL SIGN E } - { । }
+1	{ व } - { : }
+1	{ ख } - { &#39; }
+1	{ क } - { . }
+1	{ ठ } - { + }
+1	{ न } - { । }
+1	{ DEVANAGARI VOWEL SIGN UU } - { SPACE }
+1	{ ब } - { ~ }
+1	{ ० } - { &lt; }
+1	{ द } - { „ }
+1	{ उ } - { ५ }
+1	{  } - { ० }
+1	{ [ } - { SPACE }
+1	{ ग } - { श }
+1	{ § } - { 9 }
+1	{ ण } - { श }
+1	{ ट } - { ध }
+1	{ { } - { SPACE }
+1	{ ह } - { । }
+1	{ ड } - { &lt; }
+1	{ DEVANAGARI SIGN NUKTA } - { DEVANAGARI VOWEL SIGN AA }
+1	{ DEVANAGARI VOWEL SIGN U } - { भ }
+1	{ त } - { भ }
+1	{ ‡ } - { ग }
+1	{  } - { … }
+1	{ ट } - { ग }
+1	{ DEVANAGARI VOWEL SIGN AA } - { ॥ }
+1	{ ण } - { भ }
+1	{ ख } - { भ }
+1	{ SPACE } - { व }
+1	{ छ } - { । }
+1	{ DEVANAGARI VOWEL SIGN II } - { DEVANAGARI SIGN ANUSVARA }
+1	{ VEDIC TONE DOUBLE SVARITA } - {  }
+1	{  } - { ई }
+1	{ . } - { &#34; }
+1	{ DEVANAGARI VOWEL SIGN I } - { त }
+1	{ &lt; } - { DEVANAGARI SIGN VIRAMA }
+1	{ व } - { ग }
+1	{ उ } - { आ }
+1	{ DEVANAGARI VOWEL SIGN E } - { ख }
+1	{ फ } - { म }
+1	{ DEVANAGARI VOWEL SIGN CANDRA O } - { DEVANAGARI SIGN VIRAMA }
+1	{ न } - { थ }
+1	{ ज } - { य }
+1	{ % } - { ८ }
+1	{ न } - { DEVANAGARI VOWEL SIGN AA }
+1	{ + } - { ३ }
+1	{ ए } - { ऐ }
+1	{  } - { ऍ }
+1	{ ए } - { ऍ }
+1	{ ‡ } - { ५ }
+1	{ त } - { DEVANAGARI VOWEL SIGN E }
+1	{ ꣳ } - { + }
+1	{ द } - { त }
+1	{ _ } - { &#34; }
+1	{ ॰ } - { &#39; }
+1	{  } - { ! }
+1	{ औ } - { ओ }
+1	{ प } - { क }
+1	{ ꣳ } - { DEVANAGARI SIGN CANDRABINDU }
+1	{ DEVANAGARI VOWEL SIGN CANDRA E } - { DEVANAGARI SIGN CANDRABINDU }
+1	{ / } - { | }
+1	{ SPACE } - { ग }
+1	{ क } - { DEVANAGARI VOWEL SIGN U }
+1	{ ष } - { फ }
+1	{ ऊ } - { आ }
+1	{ SPACE } - { त }
+1	{ ढ } - { झ }
+1	{ ॥ } - { DEVANAGARI SIGN ANUSVARA }
+1	{ ञ } - { ल }
+1	{ च } - { DEVANAGARI VOWEL SIGN U }
+1	{ ग } - { ङ }
+1	{ घ } - { ङ }
+1	{ 4 } - { 1 }
+1	{ ( } - { १ }
+1	{ ३ } - { ९ }
+1	{ द } - { DEVANAGARI VOWEL SIGN I }
+1	{ DEVANAGARI VOWEL SIGN AI } - { थ }
+1	{ ञ } - { म }
+1	{ व } - { DEVANAGARI VOWEL SIGN I }
+1	{ ख } - { क }
+1	{ । } - { भ }
+1	{ ४ } - { थ }
+1	{ ऑ } - { अ }
+1	{ DEVANAGARI VOWEL SIGN II } - { ष }
+1	{ ꣳ } - { SPACE }
+1	{ DEVANAGARI VOWEL SIGN II } - { ह }
+1	{ ढ } - { DEVANAGARI VOWEL SIGN I }
+1	{ १ } - { + }
+1	{ २ } - { ? }
+1	{ १ } - { । }
+1	{ ई } - {  }
+1	{ ॥ } - { ? }
+1	{ DEVANAGARI SIGN CANDRABINDU } - { 5 }
+1	{ DEVANAGARI VOWEL SIGN O } - { ह }
+1	{ ७ } - { 8 }
+1	{ ] } - { DEVANAGARI VOWEL SIGN U }
+1	{ छ } - { ष }
+1	{ ० } - { भ }
+1	{ ४ } - { त }
+1	{ DEVANAGARI VOWEL SIGN AU } - { त }
+1	{ ९ } - { । }
+1	{ DEVANAGARI SIGN ANUSVARA } - { ड }
+1	{ ङ } - { DEVANAGARI VOWEL SIGN VOCALIC R }
+1	{ DEVANAGARI VOWEL SIGN AA } - { DEVANAGARI VOWEL SIGN I }
+1	{ ख } - { ई }
+1	{ DEVANAGARI SIGN VISARGA } - { DEVANAGARI VOWEL SIGN E }
+1	{ व } - { SPACE }
+1	{ 3 } - { ५ }
+1	{ DEVANAGARI SIGN VISARGA } - { त }
+1	{ 3 } - { ‡ }
+1	{ ध } - { त }
+1	{ ग } - { ड }
+1	{ DEVANAGARI VOWEL SIGN II } - { DEVANAGARI SIGN VIRAMA }
+1	{ थ } - { द }
+1	{ ऽ } - { ज }
+1	{ प } - { ब }
+1	{ ४ } - { ध }
+1	{ ॥ } - { DEVANAGARI VOWEL SIGN E }
+1	{ 3 } - { 1 }
+1	{ DEVANAGARI VOWEL SIGN II } - { त }
+1	{ DEVANAGARI VOWEL SIGN II } - { श }
+1	{ , } - { 4 }
+1	{ ९ } - { ३ }
+1	{ फ } - { ड }
+1	{ ऍ } - { श }
+1	{ अ } - { DEVANAGARI VOWEL SIGN E }
+1	{ त } - { DEVANAGARI SIGN ANUSVARA }
+1	{ 2 } - { . }
+1	{ DEVANAGARI VOWEL SIGN II } - { , }
+1	{ य } - { DEVANAGARI VOWEL SIGN VOCALIC R }
+1	{ थ } - { SPACE }
+1	{ ६ } - { ड }
+1	{ इ } - { DEVANAGARI SIGN NUKTA }
+1	{ 3 } - { ऽ }
+1	{ ४ } - { श }
+1	{ १ } - { भ }
+1	{ ८ } - { DEVANAGARI VOWEL SIGN U }
+1	{ ( } - { [ }
+1	{ ए } - { ट }
+1	{ 5 } - { र }
+1	{ ई } - { र }
+1	{ ऐ } - { DEVANAGARI VOWEL SIGN E }
+1	{ &#39; } - { ३ }
+1	{ अ } - { आ }
+1	{ ऑ } - { स }
+1	{ DEVANAGARI SIGN VIRAMA } - { छ }
+1	{ ङ } - { ख }
+1	{ म } - { ह }
+1	{ DEVANAGARI SIGN VIRAMA } - { &#39; }
+1	{ इ } - { DEVANAGARI SIGN VIRAMA }
+1	{ श } - { DEVANAGARI VOWEL SIGN E }
+1	{ ८ } - { ष }
+1	{ आ } - { DEVANAGARI VOWEL SIGN AA }
+1	{ ट } - { DEVANAGARI VOWEL SIGN UU }
+1	{ ल } - { ब }
+1	{ ८ } - { DEVANAGARI VOWEL SIGN UU }
+1	{ DEVANAGARI SIGN VIRAMA } - { ज }
+1	{ अ } - { ढ }
+1	{ द } - { DEVANAGARI VOWEL SIGN UU }
+1	{ अ } - { थ }
+1	{ DEVANAGARI VOWEL SIGN U } - { द }
+1	{ ऋ } - { च }
+1	{ आ } - { च }
+1	{ ८ } - { = }
+1	{ द } - { ख }
+1	{ श } - { प }
+1	{ ८ } - { * }
+1	{ ८ } - { &lt; }
+1	{ ॐ } - { ऊ }
+1	{ थ } - { DEVANAGARI SIGN VIRAMA }
+1	{ औ } - { र }
+1	{ म } - { ल }
+1	{  } - { [ }
+1	{ % } - { 6 }
+1	{ ऋ } - { त }
+1	{ स } - { श }
+1	{ &#39; } - { ` }
+1	{ [ } - { { }
+1	{ ꣳ } - { ५ }
+1	{ ब } - { ध }
+1	{ VEDIC TONE DOUBLE SVARITA } - { * }
+1	{ ॰ } - { ५ }
+1	{ 1 } - { ] }
+1	{ प } - { त }
+1	{ ल } - { ठ }
+1	{ च } - { DEVANAGARI VOWEL SIGN E }
+1	{ १ } - { ? }
+1	{ ब } - { ? }
+1	{ ण } - { DEVANAGARI VOWEL SIGN II }
+1	{ ऑ } - { श }
+1	{ आ } - { श }
+1	{ द } - { ई }
+1	{ अ } - { DEVANAGARI SIGN VIRAMA }
+1	{ DEVANAGARI VOWEL SIGN UU } - { प }
+1	{ SPACE } - { DEVANAGARI VOWEL SIGN AA }
+1	{ श } - { ख }
+1	{ DEVANAGARI SIGN NUKTA } - { ज }
+1	{ । } - { ] }
+1	{ ८ } - { ० }
+1	{ - } - { य }
+1	{ प } - { द }
+1	{ DEVANAGARI VOWEL SIGN E } - { ध }
+1	{ DEVANAGARI VOWEL SIGN AI } - { ध }
+1	{ ळ } - { ब }
+1	{ ~ } - { &lt; }
+1	{ य } - { ख }
+1	{ DEVANAGARI VOWEL SIGN U } - { श }
+1	{ च } - { ल }
+1	{ DEVANAGARI VOWEL SIGN I } - { क }
+1	{ ड } - { DEVANAGARI SIGN ANUSVARA }
+1	{ DEVANAGARI VOWEL SIGN VOCALIC R } - { ष }
+1	{ - } - { ॰ }
+1	{ क } - { ष }
+1	{ 3 } - { । }
+1	{ ऽ } - { झ }
+1	{ क } - { प }
+1	{ ब } - { श }
+1	{ ₹ } - { इ }
+1	{ | } - { [ }
+1	{ \ } - { 1 }
+1	{ 9 } - { 4 }
+1	{ ज } - { ख }
+1	{ इ } - { ञ }
+1	{ झ } - {  }
+1	{ ठ } - { ख }
+1	{ DEVANAGARI SIGN NUKTA } - { ड }
+1	{ इ } - { उ }
+1	{ र } - { ९ }
+1	{ औ } - { DEVANAGARI VOWEL SIGN AU }
+1	{ ५ } - { SPACE }
+1	{ ६ } - { SPACE }
+1	{  } - { ८ }
+1	{ § } - { 6 }
+1	{ SPACE } - { 1 }
+1	{ 6 } - { 0 }
+1	{ ण } - { प }
+1	{ DEVANAGARI VOWEL SIGN UU } - { . }
+1	{ - } - { DEVANAGARI SIGN VISARGA }
+1	{ ह } - { ध }
+1	{ [ } - { DEVANAGARI SIGN ANUSVARA }
+1	{ DEVANAGARI VOWEL SIGN U } - { ₹ }
+1	{ DEVANAGARI VOWEL SIGN O } - { ग }
+1	{ ळ } - { त }
+1	{ DEVANAGARI VOWEL SIGN UU } - { क }
+1	{ ण } - { DEVANAGARI VOWEL SIGN I }
+1	{ DEVANAGARI SIGN VIRAMA } - { DEVANAGARI VOWEL SIGN II }
+1	{ ष } - { स }
+1	{ आ } - { ह }
+1	{ ई } - { DEVANAGARI SIGN VIRAMA }
+1	{ श } - { म }
+1	{ DEVANAGARI VOWEL SIGN AU } - { DEVANAGARI VOWEL SIGN E }
+1	{ श } - { घ }
+1	{ ञ } - { थ }
+1	{ § } - { ड }
+1	{  } - { { }
+1	{ ? } - { 3 }
+1	{ SPACE } - { DEVANAGARI VOWEL SIGN VOCALIC R }
+1	{ ऍ } - { DEVANAGARI VOWEL SIGN E }
+1	{ घ } - { न }
+1	{ र } - { DEVANAGARI VOWEL SIGN U }
+1	{ द } - { क }
+1	{ ३ } - { २ }
+1	{ च } - { ठ }
+1	{ § } - { ई }
+1	{ , } - { व }
+1	{ § } - { व }
+1	{ § } - { DEVANAGARI SIGN VIRAMA }
+1	{ ] } - { ॥ }
+1	{ % } - { DEVANAGARI SIGN VIRAMA }
+1	{ १ } - { 9 }
+1	{ DEVANAGARI VOWEL SIGN E } - { ओ }
+1	{ * } - { + }
+1	{ ञ } - { DEVANAGARI SIGN VISARGA }
+1	{ 6 } - { ठ }
+1	{ | } - { र }
+1	{ DEVANAGARI VOWEL SIGN I } - { ग }
+1	{ ज } - { SPACE }
+1	{ ८ } - { 1 }
+1	{ ल } - { DEVANAGARI SIGN NUKTA }
+1	{ : } - { - }
+1	{ श } - { DEVANAGARI SIGN ANUSVARA }
+1	{ ॰ } - { SPACE }
+1	{ - } - { &#34; }
+1	{ ल } - { द }
+1	{ ह } - { . }
+1	{ DEVANAGARI VOWEL SIGN AI } - { &#39; }
+1	{ ज } - { DEVANAGARI SIGN ANUSVARA }
+1	{ DEVANAGARI VOWEL SIGN E } - { त }
+1	{ ; } - { DEVANAGARI SIGN ANUSVARA }
+1	{ &gt; } - { 9 }
+1	{  } - { ४ }
+1	{  } - { ॥ }
+1	{  } - { 8 }
+1	{ व } - { DEVANAGARI VOWEL SIGN U }
+1	{ ~ } - { … }
+1	{  } - { 9 }
+1	{ ऽ } - { DEVANAGARI SIGN ANUSVARA }
+1	{ च } - { DEVANAGARI SIGN ANUSVARA }
+1	{ ऽ } - { ड }
+1	{ ख } - { DEVANAGARI SIGN ANUSVARA }
+1	{ DEVANAGARI VOWEL SIGN AI } - { DEVANAGARI SIGN VISARGA }
+1	{ } } - { । }
+1	{ DEVANAGARI SIGN NUKTA } - { ब }
+1	{ श } - { झ }
+1	{ DEVANAGARI VOWEL SIGN U } - { ज }
+1	{ § } - { 8 }
+1	{  } - { ( }
+1	{ &#39; } - { SPACE }
+1	{ ण } - { द }
+1	{ | } - { ग }
+1	{ ५ } - { ८ }
+1	{ 5 } - { ऽ }
+
+Average accuracy: 93.99%, (stddev: 0.00)
