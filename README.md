@@ -1,8 +1,8 @@
 # kraken_devanagari
-Devanagari Recognition model for [kraken](https://github.com/mittagessen/kraken). 
+Experimental Devanagari Recognition model for [kraken](https://github.com/mittagessen/kraken). 
 
 ## devatrain_best.mlmodel
-`bbox` based recognizer for Devanagari.
+Recognizer for Devanagari script for kraken (uses the old `bbox` type segmentation)
 
 ### Training
 
