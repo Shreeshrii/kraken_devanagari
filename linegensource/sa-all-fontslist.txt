@@ -1,0 +1,95 @@
+Adobe Devanagari
+Aksharyogini2
+Amiko
+Amiko Bold
+Annapurna SIL
+Annapurna SIL Bold
+Aparajita
+Aparajita Bold
+Aparajita Bold Italic
+Aparajita Italic
+Arial Unicode MS
+Arya
+Arya Bold
+Chandas
+Dinah
+DinahVAA Bold
+Eczar
+Eczar Bold
+Eczar Medium
+Ek Mukta
+Ek Mukta Bold
+Ek Mukta Medium
+FreeSans
+FreeSerif
+Gargi
+Glegoo
+Glegoo Bold
+Halant
+Halant Bold
+Halant Medium
+Inknut Antiqua
+Inknut Antiqua Bold
+Inknut Antiqua Medium
+Jaldi
+Kadwa
+Kokila
+Kokila Bold
+Kokila Bold Italic
+Kokila Italic
+Laila
+Laila Bold
+Laila Medium
+Lohit Devanagari
+Lohit Hindi
+Lohit Marathi
+Mangal
+Mangal Bold
+Martel
+Martel Bold
+Martel Sans
+Martel Sans Bold
+Mukta
+Mukta Bold
+Mukta Medium
+Murty Hindi
+Murty Sanskrit
+Nakula
+Nirmala UI
+Nirmala UI Bold
+Pragati Narrow
+Pragati Narrow Bold
+Ranga
+Ranga Bold
+Rhodium Libre
+Sahadeva
+Sanskrit 2003,
+Sanskrit Text
+Santipur OT Medium
+Sarala
+Sarala Bold
+Shobhika
+Shobhika Bold
+Siddhanta
+Siddhanta-Calcutta
+Siddhanta-cakravat
+Sura
+Sura Bold
+Utsaah
+Utsaah Bold
+Utsaah Bold Italic
+Utsaah Italic
+Uttara
+Vesper Libre
+Vesper Libre Bold
+Vesper Libre Medium
+Yashomudra
+Yashomudra Bold
+Yashomudra Bold Italic
+Yashomudra Italic
+YashomudraLight Italic
+YashomudraMedium
+YashomudraMedium Italic
+YashomudraSemiBold Bold Italic
+Yatra One
+e-Nagari OT
