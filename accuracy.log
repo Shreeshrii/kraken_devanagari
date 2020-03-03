@@ -1,0 +1,19 @@
+
+--------- these have same text in different typefaces ---------
+font-add.log:[12233.1691] Accuracy report (0) 0.9794 22859 472
+oldstyle-add.log:[1476.5807] Accuracy report (0) 0.9420 5620 326
+synthetic-add.log:I0218] Accuracy report (0) 0.9062 2816 264
+
+--------- scanned page images - no way to check accuracy of alignment -------------
+mar-add.log:[253.2520] Accuracy report (0) 0.8286 595 102
+hin-add.log:[1440.7492] Accuracy report (0) 0.7878 2408 511
+
+alphabet-add.log:[512.0647] Accuracy report (0) 0.7529 425 105
+
+san-add.log:[1206.7345] Accuracy report (0) 0.6889 4674 1454
+
+typeface-add.log:[1328.1036] Accuracy report (0) 0.4235 2045 1179
+
+----------------------------------
+
+devatrain-devatest.log:92.51%   Accuracy
