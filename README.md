@@ -6,7 +6,12 @@ Recognizer for Devanagari script for kraken (uses the old `bbox` type segmentati
 
 ### Training
 
-The model was trained using `kraken version 2.0.8` on synthetic training data (line images from ground truth text files and fonts) generated using [tesseract's text2image](https://github.com/tesseract-ocr/tesseract) and [kraken's linegen](https://github.com/mittagessen/kraken/blob/master/kraken/linegen.py). 
+The model was trained using `kraken version 2.0.8` on synthetic training data (line images from ground truth text files and fonts) generated using [tesseract's text2image](https://github.com/tesseract-ocr/tesseract) and [kraken's linegen](https://github.com/mittagessen/kraken/blob/master/kraken/linegen.py). See [log](https://github.com/Shreeshrii/kraken_devanagari/blob/master/devanew.log) for details of training.
+
+* Training set 38761 lines, 
+* Validation set 4307 lines, 
+* Alphabet 133 symbols. 
+* Accuracy on Validation set - 0.9795386542342217.
 
 Sample of training data used is available in `devatrain` and `legacytrain` directories. 
 
